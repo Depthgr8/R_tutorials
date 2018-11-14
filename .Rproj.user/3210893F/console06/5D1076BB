@@ -1,0 +1,818 @@
+[0m[0K]0;:/c/Users/Work/Dropbox/Development/R_tutorials[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+]0;:/c/Users/Work/Dropbox/Development/R_tutorials[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+]0;:/c/Users/Work/Dropbox/Development/R_tutorials[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ l[0K[?25hs[0K[?25l
+[0K[?25hR_tutorials.Rproj  data  resources  scripts[0K[?25l
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git s[0K[?25ht[0Ka[0Kt[0Ku[0Ks[0K[?25l
+[0K[?25hOn branch master[0K[?25l
+[0K
+Initial commit[0K
+[0K
+Untracked files:[0K
+  (use "git add <file>..." to include in what will be committed)[0K
+[0K
+        [0;31m.gitignore[0m[0K[9G[?25h[?25l
+        [0;31mR_tutorials.Rproj[0m[0K
+        [0;31mdata/[0m[0K
+        [0;31mresources/[0m[0K
+        [0;31mscripts/[0m[0K
+[0K
+nothing added to commit but untracked files present (use "git add" to track)[0K
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add *[0K[?25h[?25l
+[0K[?25h[?25lwarning: LF will be replaced by CRLF in scripts/Few_important_links.R.[0K
+The file will have its original line endings in your working directory.[0K[1A[10G[?25h[?25l
+
+warning: LF will be replaced by CRLF in scripts/Save_plot.R.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in scripts/barplots.R.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in scripts/boxplots.R.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in scripts/dotplots.R.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in scripts/histograms.R.[0K
+The file will have its original line endings in your working directory.[0K[25G[?25h[?25l
+warning: LF will be replaced by CRLF in scripts/lineplot.R.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in scripts/pieplots.R.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in scripts/scatterplots.R.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git s[0K[?25ht[0Ka[0Kt[0Ku[0Ks[0K[?25l
+[0K[?25hOn branch master[0K[?25l
+[0K
+Initial commit[0K
+[0K
+Changes to be committed:[0K
+  (use "git rm --cached <file>..." to unstage)[0K
+[0K
+        [0;32mnew file:   R_tutorials.Rproj[0m[0K
+        [0;32mnew file:   data/AirlinePassengers.csv[0m[0K
+        [0;32mnew file:   data/Baseball.csv[0m[0K
+        [0;32mnew file:   data/Boston.csv[0m[0K
+        [0;32mnew file:   data/Bridges.csv[0m[0K
+        [0;32mnew file:   data/ClevelandHeart14.csv[0m[0K
+        [0;32mnew file:   data/Contraception.csv[0m[0K
+        [0;32mnew file:   data/EchoCardiogram.csv[0m[0K
+        [0;32mnew file:   data/EnglandTemperature.csv[0m[0K
+        [0;32mnew file:   data/Flags.csv[0m[0K
+        [0;32mnew file:   data/Glass.csv[0m[0K
+        [0;32mnew file:   data/Haberman.csv[0m[0K[9G[?25h[?25l
+        [0;32mnew file:   data/Hayes-Roth.csv[0m[0K
+        [0;32mnew file:   data/HorseColic.csv[0m[0K
+        [0;32mnew file:   data/HotelRooms.csv[0m[0K
+        [0;32mnew file:   data/HouseVotes.csv[0m[0K
+        [0;32mnew file:   data/Iris.csv[0m[0K
+        [0;32mnew file:   data/Kepler.csv[0m[0K
+        [0;32mnew file:   data/LandingControl.csv[0m[0K
+        [0;32mnew file:   data/Lenses.csv[0m[0K
+        [0;32mnew file:   data/LiverDisorder.csv[0m[0K
+        [0;32mnew file:   data/LungCancer.csv[0m[0K
+        [0;32mnew file:   data/Mushrooms.csv[0m[0K
+        [0;32mnew file:   data/PaperTowels.csv[0m[0K
+        [0;32mnew file:   data/Parity3.csv[0m[0K
+        [0;32mnew file:   data/Pima-Indians-Diabetes.csv[0m[0K
+        [0;32mnew file:   data/PostOperative.csv[0m[0K
+        [0;32mnew file:   data/PrimaryTumor.csv[0m[0K
+        [0;32mnew file:   data/SunSpotsFull.csv[0m[0K
+        [0;32mnew file:   data/Sunspots.csv[0m[0K
+        [0;32mnew file:   data/Titanic.csv[0m[0K
+        [0;32mnew file:   data/Zoo.csv[0m[0K
+        [0;32mnew file:   data/apricot_dataset.csv[0m[0K
+        [0;32mnew file:   data/dermatology.csv[0m[0K
+        [0;32mnew file:   data/ionosphere.csv[0m[0K
+        [0;32mnew file:   data/labor-neg.csv[0m[0K
+        [0;32mnew file:   data/lymphography.csv[0m[0K
+        [0;32mnew file:   data/mpg.csv[0m[0K
+        [0;32mnew file:   data/test_data.csv[0m[0K
+        [0;32mnew file:   data/training_data.csv[0m[0K
+        [0;32mnew file:   resources/Machine Learning Modelling in R.pdf[0m[0K
+        [0;32mnew file:   resources/R_Cheat_Data.pdf[0m[0K
+        [0;32mnew file:   resources/advancedR.pdf[0m[0K
+        [0;32mnew file:   resources/base-r.pdf[0m[0K
+        [0;32mnew file:   resources/basicR.pdf[0m[0K
+        [0;32mnew file:   resources/caret.pdf[0m[0K
+        [0;32mnew file:   resources/cartography.pdf[0m[0K
+        [0;32mnew file:   resources/data-import.pdf[0m[0K
+        [0;32mnew file:   resources/data-transformation.pdf[0m[0K
+        [0;32mnew file:   resources/data-visualization-2.1.pdf[0m[0K
+        [0;32mnew file:   resources/datatable.pdf[0m[0K
+        [0;32mnew file:   resources/eurostat.pdf[0m[0K
+        [0;32mnew file:   resources/keras.pdf[0m[0K
+        [0;32mnew file:   resources/lubridate.pdf[0m[0K
+        [0;32mnew file:   resources/mosaic-cheatsheet-gf.pdf[0m[0K
+        [0;32mnew file:   resources/package-development.pdf[0m[0K
+        [0;32mnew file:   resources/purrr.pdf[0m[0K[9G[?25h[?25l
+        [0;32mnew file:   resources/quanteda.pdf[0m[0K
+        [0;32mnew file:   resources/r-cheat-sheet-3.pdf[0m[0K
+        [0;32mnew file:   resources/r-cheatsheet.pdf[0m[0K
+        [0;32mnew file:   resources/r4beginners_v3.pdf[0m[0K
+        [0;32mnew file:   resources/regex.pdf[0m[0K
+        [0;32mnew file:   resources/rmarkdown-2.0.pdf[0m[0K
+        [0;32mnew file:   resources/rmarkdown-reference.pdf[0m[0K
+        [0;32mnew file:   resources/rstudio-IDE-cheatsheet.pdf[0m[0K
+        [0;32mnew file:   resources/shiny.pdf[0m[0K
+        [0;32mnew file:   resources/sparklyr.pdf[0m[0K
+        [0;32mnew file:   resources/strings.pdf[0m[0K
+        [0;32mnew file:   scripts/Best_practices.R[0m[0K
+        [0;32mnew file:   scripts/Few_important_functions.R[0m[0K
+        [0;32mnew file:   scripts/Few_important_links.R[0m[0K
+        [0;32mnew file:   scripts/Notes.R[0m[0K
+        [0;32mnew file:   scripts/Save_plot.R[0m[0K
+        [0;32mnew file:   scripts/barplots.R[0m[0K
+        [0;32mnew file:   scripts/boxplots.R[0m[0K
+        [0;32mnew file:   scripts/descriptive_statistics.R[0m[0K
+        [0;32mnew file:   scripts/dotplots.R[0m[0K
+        [0;32mnew file:   scripts/histograms.R[0m[0K
+        [0;32mnew file:   scripts/linear_regression.R[0m[0K
+        [0;32mnew file:   scripts/lineplot.R[0m[0K
+        [0;32mnew file:   scripts/pieplots.R[0m[0K
+        [0;32mnew file:   scripts/scatterplots.R[0m[0K
+[0K
+Untracked files:[0K
+  (use "git add <file>..." to include in what will be committed)[0K
+[0K
+        [0;31m.gitignore[0m[0K
+[0K
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git l[0K[?25hs[0K[?25l
+[0K[?25hgit: 'ls' is not a git command. See 'git --help'.[0K[?25l
+[0K
+Did you mean this?[0K
+        log[0K
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[6G[?25l$ gi[0K[?25ht[0K[7G[?25l$ git -[0K[?25h-[0Ku[0Ks[0Ke[0Kr[0K[?25l$ git --use[0K[?25h[?25l$ git --us[0K[?25h[?25l$ git --u[0K[?25h[?25l$ git --[0K[?25h[?25l$ git -[0K[?25h[?25l$ git[0K[7G[?25h[?25l$ git c[0K[?25ho[0Kn[0Kf[0Ki[0Kg[0K[14G[?25l$ git config -[0K[?25h-[0K[?25l$ git config -[0K[?25h[?25l$ git config[0K[14G[?25h[13G[?25l$ git confi[0K[?25h[?25l$ git conf[0K[?25h[?25l$ git con[0K[?25h[?25l$ git co[0K[?25h[?25l$ git c[0K[?25h[?25l$ git[0K[7G[?25h[?25l$ git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[14G[?25l$ git commit -[0K[?25hm[0K[17G[?25l$ git commit -m "[0K[?25hA[0Kd[0Kd[0Ke[0Kd[0K[24G[?25l$ git commit -m "Added b[0K[?25ha[0Ks[0Ki[0Kc[0K[30G[?25l$ git commit -m "Added basic s[0K[?25hc[0Kr[0Ki[0Kp[0Kt[0Ks[0K[38G[37G[?25l$ git commit -m "Added basic scripts"[0K[?25h[?25l$ git commit -m "Added basic scripts[0K[?25h[38G[?25l$ git commit -m "Added basic scripts -[0K[?25h[40G[?25l$ git commit -m "Added basic scripts - N[0K[?25ho[0Kt[0K[44G[?25l$ git commit -m "Added basic scripts - Not d[0K[?25ho[0Kc[0Ku[0Km[0Ke[0Kn[0Kt[0Ke[0Kd[0K[55G[?25l$ git commit -m "Added basic scripts - Not documented -[0K[?25h>[0K[58G[?25l$ git commit -m "Added basic scripts - Not documented -> O[0K[?25hn[0Kl[0Ky[0K[63G[?25l$ git commit -m "Added basic scripts - Not documented -> Only f[0K[?25ho[0Kr[0K[67G[?25l$ git commit -m "Added basic scripts - Not documented -> Only for t[0K[?25he[0Ks[0Kt[0Ki[0Kn[0Kg[0K"[0K[?25l
+[0K[?25h[master (root-commit) 12dd93f] Added basic scripts - Not documented -> Only for[0K[?25l
+testing[0K
+[0K[?25hwarning: LF will be replaced by CRLF in scripts/Few_important_links.R.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in scripts/Save_plot.R.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in scripts/barplots.R.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in scripts/boxplots.R.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in scripts/dotplots.R.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in scripts/histograms.R.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in scripts/lineplot.R.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in scripts/pieplots.R.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in scripts/scatterplots.R.[0K
+The file will have its original line endings in your working directory.[0K
+ 82 files changed, 25900 insertions(+)[0K
+ create mode 100644 R_tutorials.Rproj[0K
+ create mode 100644 data/AirlinePassengers.csv[0K
+ create mode 100644 data/Baseball.csv[0K
+ create mode 100644 data/Boston.csv[0K
+ create mode 100644 data/Bridges.csv[0K
+ create mode 100644 data/ClevelandHeart14.csv[0K
+ create mode 100644 data/Contraception.csv[0K
+ create mode 100644 data/EchoCardiogram.csv[0K
+ create mode 100644 data/EnglandTemperature.csv[0K
+ create mode 100644 data/Flags.csv[0K
+ create mode 100644 data/Glass.csv[0K
+ create mode 100644 data/Haberman.csv[0K
+ create mode 100644 data/Hayes-Roth.csv[0K
+ create mode 100644 data/HorseColic.csv[0K
+ create mode 100644 data/HotelRooms.csv[0K
+ create mode 100644 data/HouseVotes.csv[0K
+ create mode 100644 data/Iris.csv[0K
+ create mode 100644 data/Kepler.csv[0K
+ create mode 100644 data/LandingControl.csv[0K
+ create mode 100644 data/Lenses.csv[0K
+ create mode 100644 data/LiverDisorder.csv[0K
+ create mode 100644 data/LungCancer.csv[0K
+ create mode 100644 data/Mushrooms.csv[0K
+ create mode 100644 data/PaperTowels.csv[0K
+ create mode 100644 data/Parity3.csv[0K
+ create mode 100644 data/Pima-Indians-Diabetes.csv[0K
+ create mode 100644 data/PostOperative.csv[0K
+ create mode 100644 data/PrimaryTumor.csv[0K
+ create mode 100644 data/SunSpotsFull.csv[0K
+ create mode 100644 data/Sunspots.csv[0K
+ create mode 100644 data/Titanic.csv[0K
+ create mode 100644 data/Zoo.csv[0K
+ create mode 100644 data/apricot_dataset.csv[0K
+ create mode 100644 data/dermatology.csv[0K
+ create mode 100644 data/ionosphere.csv[0K
+ create mode 100644 data/labor-neg.csv[0K
+ create mode 100644 data/lymphography.csv[0K
+ create mode 100644 data/mpg.csv[0K
+ create mode 100644 data/test_data.csv[0K
+ create mode 100644 data/training_data.csv[0K
+ create mode 100644 resources/Machine Learning Modelling in R.pdf[0K
+ create mode 100644 resources/R_Cheat_Data.pdf[0K
+ create mode 100644 resources/advancedR.pdf[0K
+ create mode 100644 resources/base-r.pdf[0K
+ create mode 100644 resources/basicR.pdf[0K
+ create mode 100644 resources/caret.pdf[0K
+ create mode 100644 resources/cartography.pdf[0K
+ create mode 100644 resources/data-import.pdf[0K
+ create mode 100644 resources/data-transformation.pdf[0K
+ create mode 100644 resources/data-visualization-2.1.pdf[0K
+ create mode 100644 resources/datatable.pdf[0K
+ create mode 100644 resources/eurostat.pdf[0K
+ create mode 100644 resources/keras.pdf[0K
+ create mode 100644 resources/lubridate.pdf[0K
+ create mode 100644 resources/mosaic-cheatsheet-gf.pdf[0K
+ create mode 100644 resources/package-development.pdf[0K
+ create mode 100644 resources/purrr.pdf[0K
+ create mode 100644 resources/quanteda.pdf[0K
+ create mode 100644 resources/r-cheat-sheet-3.pdf[0K
+ create mode 100644 resources/r-cheatsheet.pdf[0K
+ create mode 100644 resources/r4beginners_v3.pdf[0K
+ create mode 100644 resources/regex.pdf[0K
+ create mode 100644 resources/rmarkdown-2.0.pdf[0K
+ create mode 100644 resources/rmarkdown-reference.pdf[0K
+ create mode 100644 resources/rstudio-IDE-cheatsheet.pdf[0K
+ create mode 100644 resources/shiny.pdf[0K
+ create mode 100644 resources/sparklyr.pdf[0K
+ create mode 100644 resources/strings.pdf[0K
+ create mode 100644 scripts/Best_practices.R[0K
+ create mode 100644 scripts/Few_important_functions.R[0K
+ create mode 100644 scripts/Few_important_links.R[0K
+ create mode 100644 scripts/Notes.R[0K
+ create mode 100644 scripts/Save_plot.R[0K
+ create mode 100644 scripts/barplots.R[0K
+ create mode 100644 scripts/boxplots.R[0K
+ create mode 100644 scripts/descriptive_statistics.R[0K[11G[?25h[?25l
+ create mode 100644 scripts/dotplots.R[0K
+ create mode 100644 scripts/histograms.R[0K
+ create mode 100644 scripts/linear_regression.R[0K
+ create mode 100644 scripts/lineplot.R[0K
+ create mode 100644 scripts/pieplots.R[0K
+ create mode 100644 scripts/scatterplots.R[0K
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Ks[0Kh[0K[12G[?25l$ git push o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[19G[?25l$ git push origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K[?25l
+[0K[?25hfatal: 'origin' does not appear to be a git repository[0K[?25l
+fatal: Could not read from remote repository.[0K
+[0K
+Please make sure you have the correct access rights[0K
+and the repository exists.[0K
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[18G[?25l$ git add origin '[0K[?25h[?25l$ git add origin[0K[18G[?25h[?25l$ git add origin "[0K[?25h^?[0K[?25l$ git add origin "[0K[?25h[?25l$ git add origin[0K[19G[?25h[17G[?25l$ git add origi[0K[?25h[?25l$ git add orig[0K[?25h[?25l$ git add ori[0K[?25h[?25l$ git add or[0K[?25h[?25l$ git add o[0K[?25h[?25l$ git add[0K[?25h[?25l$ git ad[0K[?25h[?25l$ git a[0K[9G[?25h[?25l$ git[0K[7G[?25h[6G[7G[?25l$ git r[0K[?25he[0Km[0Ko[0Kt[0Ke[0K[14G[?25l$ git remote a[0K[?25hd[0Kd[0K[18G[?25l$ git remote add o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[25G[?25l$ git remote add origin "[0K[?25h[?25lht[0K[27G[?25h[?25l$ git remote add origin "https://github.com/Depthgr8/R_tutorials.git[0K[?25h"[0K[?25l
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Ks[0Kh[0K[12G[?25l$ git push o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[19G[?25l$ git push origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K[?25l
+[0K[?25hFatal: HttpRequestException encountered.[0K[?25l
+[0K[?25herror: cannot spawn rpostback-askpass: No such file or directory[0K[?25l
+[0K[?25hUsername for 'https://github.com':[0K[36G[?25lUsername for 'https://github.com': d[0K[?25he[0Kp[0Kt[0Kh[0Kg[0Kr[0K8[0K[?25l
+error: cannot spawn rpostback-askpass: No such file or directory[0K
+[0K[?25hPassword for 'https://depthgr8@github.com':[0K[45G[?25l
+[0K[?25hTo https://github.com/Depthgr8/R_tutorials.git[0K[?25l
+ ! [rejected]        master -> master (fetch first)[0K
+error: failed to push some refs to 'https://github.com/Depthgr8/R_tutorials.git[0K'
+[0K
+hint: Updates were rejected because the remote contains work that you do[0K
+hint: not have locally. This is usually caused by another repository pushing[0K
+hint: to the same ref. You may want to first integrate the remote changes[0K
+hint: (e.g., 'git pull ...') before pushing again.[0K
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.[0K
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Kl[0Kl[0K[12G[?25l$ git pull o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[19G[?25l$ git pull origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K[?25l
+[0K[?25hwarning: no common commits[0K[?25l
+[0K[?25hremote: Enumerating objects: 4, done.[0K[?25l
+remote: Counting objects: 100% (4/4), done.[0K
+remote: Compressing objects: 100% (4/4), done.[0K
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0[0K
+[0K[?25hUnpacking objects: 100% (4/4), done.[0K[?25l
+[0K[?25hFrom https://github.com/Depthgr8/R_tutorials[0K[?25l
+ * branch            master     -> FETCH_HEAD[0K
+ * [new branch]      master     -> origin/master[0K
+[0K[?25hfatal: refusing to merge unrelated histories[0K[?25l
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[1G[?25h[3G[?25l$ l[0K[?25hs[0K[?25l
+[0K[?25hR_tutorials.Rproj  data  resources  scripts[0K[?25l
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ r[0K[?25hm[0K[6G[?25l$ rm .[0K[?25hg[0Ki[0Kt[0Ki[0Kg[0Knore[0K[17G[?25l
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git r[0K[?25hm[0K[10G[?25l$ git rm .[0K[?25hg[0Ki[0Kt[0K/if[0K[?25l$ git rm .git/i[0K[?25h[?25l$ git rm .git/[0K[?25h[?25l$ git rm .git[0K[?25hi[0Kg[0Kn[0K[?25l$ git rm .gitig[0K[?25hn[0Ko[0Kr[0Ke[0K[?25l
+[0K[?25hfatal: pathspec '.gitignore' did not match any files[0K[?25l
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git s[0K[?25ht[0Ka[0Kt[0Ku[0Ks[0K[?25l
+[0K[?25hOn branch master[0K[?25l
+Untracked files:[0K
+  (use "git add <file>..." to include in what will be committed)[0K
+[0K
+        [0;31m.RData[0m[0K[9G[?25h[?25l
+        [0;31m.Rhistory[0m[0K
+        [0;31m.Rproj.user/[0m[0K
+[0K
+nothing added to commit but untracked files present (use "git add" to track)[0K
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0m[0K[1G[?25h[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K[?25l
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add *[0K[?25h[?25l$ git add[0K[11G[?25h[10G[?25l$ git ad[0K[?25h[?25l$ git a[0K[?25h[?25l$ git[0K[7G[?25h[?25l$ git o[0K[?25hu[0Kl[0K[?25l$ git ou[0K[?25h[?25l$ git o[0K[?25h[?25l$ git[0K[8G[?25h[7G[?25l$ git p[0K[?25hu[0Kl[0Kl[0K[12G[?25l$ git pull o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[19G[?25l$ git pull origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K[?25l
+[0K[?25hFrom https://github.com/Depthgr8/R_tutorials[0K[?25l
+ * branch            master     -> FETCH_HEAD[0K
+[0K[?25hfatal: refusing to merge unrelated histories[0K[?25l
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K[23G[?25h[?25l
+$[0K[3G[?25h[?25l$ l[0K[?25hs[0K[?25l
+[0K[?25hR_tutorials.Rproj  data  resources  scripts[0K[?25l
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ ls[0K[?25h[?25l$ git pull origin master[0K[4G[?25h[25G[?25l
+[0K[?25hremote: Enumerating objects: 3, done.[0K[?25l
+remote: Counting objects: 100% (3/3), done.[0K
+remote: Compressing objects: 100% (1/1), done.[0K
+remote: Total 2 (delta 0), reused 0 (delta 0), pack-reused 0[0K
+[0K[?25hUnpacking objects: 100% (2/2), done.[0K[?25l
+[0K[?25hFrom https://github.com/Depthgr8/R_tutorials[0K[?25l
+ * branch            master     -> FETCH_HEAD[0K
+[0K[?25h   0b04dd7..f04c18f  master     -> origin/master[0K[?25l
+[0K[?25hfatal: refusing to merge unrelated histories[0K[?25l
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git c[0K[?25hl[0Ko[0Kn[0Ke[0K[13G[?25l$ git clone o[0K[?25hr[0K[?25l$ git clone o[0K[?25h[?25l$ git clone[0K[13G[?25h[?25l$ git clone "[0K[?25h[?25lht[0K[15G[?25h[?25l$ git clone "https://github.com/Depthgr8/R_tutorials.git[0K[?25h"[0K[?25l
+[0K[?25hCloning into 'R_tutorials'...[0K[?25l
+[0K[?25hremote: Enumerating objects: 6, done.[0K[?25l
+remote: Counting objects: 100% (6/6), done.[0K
+remote: Compressing objects: 100% (5/5), done.[0K
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0[0K
+[0K[?25h[?25lUnpacking objects:  50% (3/6)[0K[1G[?25hUnpacking objects: 100% (6/6), done.[0K[?25l
+Checking connectivity...[0K[26G[?25h[?25lChecking connectivity... done.[0K
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git s[0K[?25ht[0Ka[0Kt[0Ku[0Ks[0K[?25l
+[0K[?25hOn branch master[0K[?25l
+Untracked files:[0K
+  (use "git add <file>..." to include in what will be committed)[0K
+[0K
+        [0;31m.RData[0m[0K
+        [0;31m.Rhistory[0m[0K[?25h[?25l
+        [0;31m.Rproj.user/[0m[0K
+        [0;31mR_tutorials/[0m[0K
+[0K
+nothing added to commit but untracked files present (use "git add" to track)[0K
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add *[0K[?25h[?25l
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[1G[?25h[3G[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Kl[0Kl[0K[12G[?25l$ git pull o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[19G[?25l$ git pull origin m[0K[?25ha[0Kt[0K[?25l$ git pull origin ma[0K[?25hs[0Kt[0Ke[0Kr[0K[?25l
+[0K[?25hFrom https://github.com/Depthgr8/R_tutorials[0K[?25l
+ * branch            master     -> FETCH_HEAD[0K
+[0K[?25hfatal: refusing to merge unrelated histories[0K[?25l
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git s[0K[?25ht[0Ka[0Kt[0Ku[0Ks[0K[?25l
+[0K[?25hOn branch master[0K[?25l
+Changes to be committed:[0K
+  (use "git reset HEAD <file>..." to unstage)[0K
+[0K
+        [0;32mnew file:   R_tutorials[0m[0K
+[0K
+Untracked files:[0K
+  (use "git add <file>..." to include in what will be committed)[0K
+[0K
+        [0;31m.RData[0m[0K
+        [0;31m.Rhistory[0m[0K
+        [0;31m.Rproj.user/[0m[0K
+[0K
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add *[0K[?25h[?25l
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git s[0K[?25ht[0Ka[0Kt[0Ku[0Ks[0K[?25l
+[0K[?25hOn branch master[0K[?25l
+Changes to be committed:[0K
+  (use "git reset HEAD <file>..." to unstage)[0K
+[0K
+        [0;32mnew file:   R_tutorials[0m[0K
+[0K
+Untracked files:[0K
+  (use "git add <file>..." to include in what will be committed)[0K
+[0K
+        [0;31m.RData[0m[0K
+        [0;31m.Rhistory[0m[0K
+        [0;31m.Rproj.user/[0m[0K
+[0K
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[14G[?25l$ git commit -[0K[?25hm[0K[17G[?25l$ git commit -m "[0K[?25hD[0Ke[0Kl[0Ke[0Kt[0Ke[0K[25G[?25l$ git commit -m "Delete g[0K[?25hi[0Kt[0Ki[0Kg[0Kn[0Ko[0Kr[0Ke[0K[35G[?25l$ git commit -m "Delete gitignore f[0K[?25hr[0Ko[0Km[0K[40G[?25l$ git commit -m "Delete gitignore from w[0K[?25he[0Kb[0K"[0K[?25l
+[0K[?25h[master 11b5d16] Delete gitignore from web[0K[?25l
+ 1 file changed, 1 insertion(+)[0K
+ create mode 160000 R_tutorials[0K
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git s[0K[?25ht[0Ka[0Kt[0Ku[0Ks[0K[?25l
+[0K[?25hOn branch master[0K[?25l
+Untracked files:[0K
+  (use "git add <file>..." to include in what will be committed)[0K
+[0K
+        [0;31m.RData[0m[0K
+        [0;31m.Rhistory[0m[0K
+        [0;31m.Rproj.user/[0m[0K
+[0K
+nothing added to commit but untracked files present (use "git add" to track)[0K
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git s[0K[?25ht[0Ka[0Kg[0Ke[0K[?25l
+[0K[?25hNothing specified, nothing added.[0K[?25l
+Maybe you wanted to say 'git add .'?[0K
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git p[0K[?25hu[0Ks[0Kh[0K[12G[?25l$ git push o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[19G[?25l$ git push origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K[?25l
+[0K[?25hFatal: HttpRequestException encountered.[0K[?25l
+[0K[?25herror: cannot spawn rpostback-askpass: No such file or directory[0K[?25l
+[0K[?25hUsername for 'https://github.com':[0K[36G[?25lUsername for 'https://github.com': d[0K[?25he[0Kp[0Kt[0Kh[0Kg[0Kr[0K8[0K[?25l
+error: cannot spawn rpostback-askpass: No such file or directory[0K
+[0K[?25hPassword for 'https://depthgr8@github.com':[0K[45G[?25l
+[0K[?25hTo https://github.com/Depthgr8/R_tutorials.git[0K[?25l
+ ! [rejected]        master -> master (non-fast-forward)[0K
+error: failed to push some refs to 'https://github.com/Depthgr8/R_tutorials.git[0K'
+[0K
+[0K[?25hhint: Updates were rejected because the tip of your current branch is behind[0K[?25l
+hint: its remote counterpart. Integrate the remote changes (e.g.[0K
+hint: 'git pull ...') before pushing again.[0K
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.[0K
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K[56G[?25h[?25l
+$[0K[3G[?25h[?25l$ l[0K[?25hs[0K[?25l
+[0K[?25hR_tutorials  R_tutorials.Rproj  data  resources  scripts[0K[?25l
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25ht[0Ki[0K[?25l$ gt[0K[?25h[?25l$ g[0K[5G[?25h[4G[?25l$ gi[0K[?25ht[0K[7G[?25l$ git c[0K[?25hl[0Ko[0Kn[0Ke[0K[13G[?25l$ git clone "[0K[?25h[?25lht[0K[15G[?25h[?25l$ git clone "https://github.com/Depthgr8/R_tutorials.git[0K[?25h"[0K[?25l
+[0K[?25hfatal: destination path 'R_tutorials' already exists and is not an empty direct[0Ko[?25l
+ry.[0K
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ c[0K[?25hd[0K[6G[?25l$ cd R[0K[?25h_[0Ktutorials[0K[?25l
+[0K[?25h]0;:/c/Users/Work/Dropbox/Development/R_tutorials/R_tutorials[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials/R_tutorials[0m[0K[1G[?25h[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials/R_tutorials[0;36m (master)[0m[0K[?25l
+$[0K[3G[?25h[?25l$ l[0K[?25hl[0K[?25l
+[0K[?25hbash: ll: command not found[0K[?25l
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ l[0K[?25hs[0K[?25l
+[0K[?25hLICENSE[0K[?25l
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ l[0K[?25hs[0K[6G[?25l$ ls -[0K[?25hl[0Ka[0K[?25l
+[0K[?25htotal 12[0K[?25l
+drwx------+ 1 Work mkpasswd    0 Nov 14 23:43 .[0K
+drwx------+ 1 Work mkpasswd    0 Nov 14 23:43 ..[0K
+drwx------+ 1 Work mkpasswd    0 Nov 14 23:44 .git[0K
+-rwx------  1 Work mkpasswd 1091 Nov 14 23:43 LICENSE[0K
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ l[0K[?25hs[0K[?25l$ l[0K[?25h[?25l$[0K[3G[?25h[?25l$ l[0K[?25hs[0K[?25l
+[0K[?25h/usr/bin/ls: cannot open directory .: Bad address[0K[?25l
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials/R_tutorials[0m[0K
+$[0K[3G[?25h[?25l$ c[0K[?25hd[0K[6G[?25l$ cd .[0K[?25h.[0K[?25l
+[0K[?25h]0;:/c/Users/Work/Dropbox/Development/R_tutorials[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ l[0K[?25hs[0K[?25l
+[0K[?25hLICENSE  R_tutorials.Rproj  data  resources  scripts[0K[?25l
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ l[0K[?25hs[0K[6G[?25l$ ls -[0K[?25hl[0Ka[0K[?25l
+[0K[?25htotal 89[0K[?25l
+drwx------+ 1 Work mkpasswd    0 Nov 14 23:46 .[0K
+drwx------+ 1 Work mkpasswd    0 Nov 14 20:41 ..[0K
+-rwx------  1 Work mkpasswd 2586 Nov 14 23:35 .RData[0K
+-rwx------  1 Work mkpasswd    0 Nov 14 23:35 .Rhistory[0K
+drwx------+ 1 Work mkpasswd    0 Nov 14 22:13 .Rproj.user[0K
+drwx------+ 1 Work mkpasswd    0 Nov 14 23:46 .git[0K
+-rwx------  1 Work mkpasswd 1091 Nov 14 23:43 LICENSE[0K
+-rwx------  1 Work mkpasswd  244 Nov 14 23:38 R_tutorials.Rproj[0K
+drwx------+ 1 Work mkpasswd    0 Nov 14 20:42 data[0K
+drwx------+ 1 Work mkpasswd    0 Nov 14 20:41 resources[0K
+drwx------+ 1 Work mkpasswd    0 Nov 14 22:22 scripts[0K
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git s[0K[?25ht[0Ka[0Kt[0Ku[0Ks[0K[?25l
+[0K[?25hOn branch master[0K[?25l
+Your branch is up-to-date with 'origin/master'.[0K
+Untracked files:[0K
+  (use "git add <file>..." to include in what will be committed)[0K
+[0K
+        [0;31m.RData[0m[0K
+        [0;31m.Rhistory[0m[0K
+        [0;31m.Rproj.user/[0m[0K
+        [0;31mR_tutorials.Rproj[0m[0K
+        [0;31mdata/[0m[0K
+        [0;31mresources/[0m[0K
+        [0;31mscripts/[0m[0K
+[0K
+nothing added to commit but untracked files present (use "git add" to track)[0K
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add *[0K[?25h[?25l
+[0K[?25hwarning: LF will be replaced by CRLF in scripts/Few_important_links.R.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in scripts/Save_plot.R.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in scripts/barplots.R.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in scripts/boxplots.R.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in scripts/dotplots.R.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in scripts/histograms.R.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in scripts/lineplot.R.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in scripts/pieplots.R.[0K
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in scripts/scatterplots.R.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git c[0K[?25hl[0Ko[0Kn[0Ke[0K[13G[?25l$ git clone "[0K[?25h[?25l$ git clone[0K[13G[?25h[?25l$ git clone "[0K[?25h[?25lhttps://github.com/Dep[0K[35G[?25h[?25l$ git clone "https://github.com/Depthgr8/R_tutorials.git[0K[?25h"[0K[?25l
+[0K[?25hCloning into 'R_tutorials'...[0K[?25l
+[0K[?25hremote: Enumerating objects: 6, done.[0K[?25l
+remote: Counting objects: 100% (6/6), done.[0K[40G[?25h[?25l
+remote: Compressing objects: 100% (5/5), done.[0K
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0[0K
+[0K[?25h[?25lUnpacking objects:  66% (4/6)[0K[1G[?25hUnpacking objects: 100% (6/6), done.[0K[?25l
+[0K[?25hChecking connectivity...[0K[26G[?25lChecking connectivity... done.[0K
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ l[0K[?25hs[0K[?25l
+[0K[?25hLICENSE  R_tutorials  R_tutorials.Rproj  data  resources  scripts[0K[?25l
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ r[0K[?25hm[0K[6G[?25l$ rm R[0K[?25h_[0Kt[0Ku[0Ktorials[0K[?25l
+[0K[?25h/usr/bin/rm: cannot remove 'R_tutorials': Is a directory[0K[?25l
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ r[0K[?25hm R_tutorials[0K[16G[15G[14G[13G[12G[11G[9G[8G[7G[6G[5G[?25l$ rm  R_tutorials[0K[6G[?25h[?25l$ rm - R_tutorials[0K[7G[?25h[?25l$ rm -r R_tutorials[0K[8G[?25h[?25l
+[0K[?25h/usr/bin/rm: remove write-protected regular file 'R_tutorials/.git/objects/03/a[0K2[?25l
+035cec6016c0376f5c4a81b1e2301e5eb38d'?[0K[40G[?25h[?25l035cec6016c0376f5c4a81b1e2301e5eb38d'? y[0K[?25h[?25l
+/usr/bin/rm: remove write-protected regular file 'R_tutorials/.git/objects/0b/0[0K4
+dd73306acc73f166fd69ec6cc1d1abbd17ee'?[0K[40G[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K[22G[?25h[?25l
+$[0K[3G[?25h[?25l$ rm -r R_tutorials[0K[?25h[19G[18G[17G[16G[15G[14G[13G[12G[11G[10G[9G[8G[7G[6G[5G[6G[7G[8G[?25l$ rm -rf R_tutorials[0K[9G[?25h[?25l
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ l[0K[?25hs[0K[?25l
+[0K[?25hLICENSE  R_tutorials.Rproj  data  resources  scripts[0K[?25l
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git s[0K[?25ht[0Ka[0Kt[0Ku[0Ks[0K[?25l
+[0K[?25hOn branch master[0K[?25l
+Your branch is up-to-date with 'origin/master'.[0K
+Changes to be committed:[0K
+  (use "git reset HEAD <file>..." to unstage)[0K
+[0K
+        [0;32mnew file:   R_tutorials.Rproj[0m[0K
+        [0;32mnew file:   data/AirlinePassengers.csv[0m[0K
+        [0;32mnew file:   data/Baseball.csv[0m[0K
+        [0;32mnew file:   data/Boston.csv[0m[0K
+        [0;32mnew file:   data/Bridges.csv[0m[0K
+        [0;32mnew file:   data/ClevelandHeart14.csv[0m[0K
+        [0;32mnew file:   data/Contraception.csv[0m[0K
+        [0;32mnew file:   data/EchoCardiogram.csv[0m[0K
+        [0;32mnew file:   data/EnglandTemperature.csv[0m[0K
+        [0;32mnew file:   data/Flags.csv[0m[0K
+        [0;32mnew file:   data/Glass.csv[0m[0K
+        [0;32mnew file:   data/Haberman.csv[0m[0K
+        [0;32mnew file:   data/Hayes-Roth.csv[0m[0K
+        [0;32mnew file:   data/HorseColic.csv[0m[0K
+        [0;32mnew file:   data/HotelRooms.csv[0m[0K
+        [0;32mnew file:   data/HouseVotes.csv[0m[0K
+        [0;32mnew file:   data/Iris.csv[0m[0K[9G[?25h[?25l
+        [0;32mnew file:   data/Kepler.csv[0m[0K
+        [0;32mnew file:   data/LandingControl.csv[0m[0K
+        [0;32mnew file:   data/Lenses.csv[0m[0K
+        [0;32mnew file:   data/LiverDisorder.csv[0m[0K
+        [0;32mnew file:   data/LungCancer.csv[0m[0K
+        [0;32mnew file:   data/Mushrooms.csv[0m[0K
+        [0;32mnew file:   data/PaperTowels.csv[0m[0K
+        [0;32mnew file:   data/Parity3.csv[0m[0K
+        [0;32mnew file:   data/Pima-Indians-Diabetes.csv[0m[0K
+        [0;32mnew file:   data/PostOperative.csv[0m[0K
+        [0;32mnew file:   data/PrimaryTumor.csv[0m[0K
+        [0;32mnew file:   data/SunSpotsFull.csv[0m[0K
+        [0;32mnew file:   data/Sunspots.csv[0m[0K
+        [0;32mnew file:   data/Titanic.csv[0m[0K
+        [0;32mnew file:   data/Zoo.csv[0m[0K
+        [0;32mnew file:   data/apricot_dataset.csv[0m[0K
+        [0;32mnew file:   data/dermatology.csv[0m[0K
+        [0;32mnew file:   data/ionosphere.csv[0m[0K
+        [0;32mnew file:   data/labor-neg.csv[0m[0K
+        [0;32mnew file:   data/lymphography.csv[0m[0K
+        [0;32mnew file:   data/mpg.csv[0m[0K
+        [0;32mnew file:   data/test_data.csv[0m[0K
+        [0;32mnew file:   data/training_data.csv[0m[0K
+        [0;32mnew file:   resources/Machine Learning Modelling in R.pdf[0m[0K
+        [0;32mnew file:   resources/R_Cheat_Data.pdf[0m[0K
+        [0;32mnew file:   resources/advancedR.pdf[0m[0K
+        [0;32mnew file:   resources/base-r.pdf[0m[0K
+        [0;32mnew file:   resources/basicR.pdf[0m[0K
+        [0;32mnew file:   resources/caret.pdf[0m[0K
+        [0;32mnew file:   resources/cartography.pdf[0m[0K
+        [0;32mnew file:   resources/data-import.pdf[0m[0K
+        [0;32mnew file:   resources/data-transformation.pdf[0m[0K
+        [0;32mnew file:   resources/data-visualization-2.1.pdf[0m[0K
+        [0;32mnew file:   resources/datatable.pdf[0m[0K
+        [0;32mnew file:   resources/eurostat.pdf[0m[0K
+        [0;32mnew file:   resources/keras.pdf[0m[0K[9G[?25h[?25l
+        [0;32mnew file:   resources/lubridate.pdf[0m[0K
+        [0;32mnew file:   resources/mosaic-cheatsheet-gf.pdf[0m[0K
+        [0;32mnew file:   resources/package-development.pdf[0m[0K
+        [0;32mnew file:   resources/purrr.pdf[0m[0K
+        [0;32mnew file:   resources/quanteda.pdf[0m[0K
+        [0;32mnew file:   resources/r-cheat-sheet-3.pdf[0m[0K
+        [0;32mnew file:   resources/r-cheatsheet.pdf[0m[0K
+        [0;32mnew file:   resources/r4beginners_v3.pdf[0m[0K
+        [0;32mnew file:   resources/regex.pdf[0m[0K
+        [0;32mnew file:   resources/rmarkdown-2.0.pdf[0m[0K
+        [0;32mnew file:   resources/rmarkdown-reference.pdf[0m[0K
+        [0;32mnew file:   resources/rstudio-IDE-cheatsheet.pdf[0m[0K
+        [0;32mnew file:   resources/shiny.pdf[0m[0K
+        [0;32mnew file:   resources/sparklyr.pdf[0m[0K
+        [0;32mnew file:   resources/strings.pdf[0m[0K
+        [0;32mnew file:   scripts/Best_practices.R[0m[0K
+        [0;32mnew file:   scripts/Few_important_functions.R[0m[0K
+        [0;32mnew file:   scripts/Few_important_links.R[0m[0K
+        [0;32mnew file:   scripts/Notes.R[0m[0K
+        [0;32mnew file:   scripts/Save_plot.R[0m[0K
+        [0;32mnew file:   scripts/barplots.R[0m[0K
+        [0;32mnew file:   scripts/boxplots.R[0m[0K
+        [0;32mnew file:   scripts/descriptive_statistics.R[0m[0K
+        [0;32mnew file:   scripts/dotplots.R[0m[0K
+        [0;32mnew file:   scripts/histograms.R[0m[0K
+        [0;32mnew file:   scripts/linear_regression.R[0m[0K
+        [0;32mnew file:   scripts/lineplot.R[0m[0K
+        [0;32mnew file:   scripts/pieplots.R[0m[0K
+        [0;32mnew file:   scripts/scatterplots.R[0m[0K
+[0K
+Untracked files:[0K
+  (use "git add <file>..." to include in what will be committed)[0K
+[0K
+        [0;31m.RData[0m[0K
+        [0;31m.Rhistory[0m[0K
+        [0;31m.Rproj.user/[0m[0K
+[0K
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25h[?25l$ git[0K[7G[?25h[?25l$ git p[0K[?25hu[0Kl[0Kl[0K[12G[?25l$ git pull o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[19G[?25l$ git pull origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K[?25l
+[0K[?25hFrom https://github.com/Depthgr8/R_tutorials[0K[?25l
+ * branch            master     -> FETCH_HEAD[0K
+[0K[?25hAlready up-to-date.[0K[?25l
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ l[0K[?25hs[0K[?25l
+[0K[?25hLICENSE  R_tutorials.Rproj  data  resources  scripts[0K[?25l
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ l[0K[?25hs[0K[6G[?25l$ ls -[0K[?25hl[0Ka[0K[?25l
+[0K[?25htotal 89[0K[?25l
+drwx------+ 1 Work mkpasswd    0 Nov 14 23:48 .[0K
+drwx------+ 1 Work mkpasswd    0 Nov 14 20:41 ..[0K
+-rwx------  1 Work mkpasswd 2586 Nov 14 23:35 .RData[0K
+-rwx------  1 Work mkpasswd    0 Nov 14 23:35 .Rhistory[0K
+drwx------+ 1 Work mkpasswd    0 Nov 14 22:13 .Rproj.user[0K
+drwx------+ 1 Work mkpasswd    0 Nov 14 23:48 .git[0K
+-rwx------  1 Work mkpasswd 1091 Nov 14 23:43 LICENSE[0K
+-rwx------  1 Work mkpasswd  244 Nov 14 23:38 R_tutorials.Rproj[0K
+drwx------+ 1 Work mkpasswd    0 Nov 14 20:42 data[0K
+drwx------+ 1 Work mkpasswd    0 Nov 14 20:41 resources[0K[?25h[?25l
+drwx------+ 1 Work mkpasswd    0 Nov 14 22:22 scripts[0K
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ l[0K[?25hs[0K[6G[?25l$ ls -[0K[?25hl[0Ka[0K[?25l
+[0K[?25htotal 89[0K[?25l
+drwx------+ 1 Work mkpasswd    0 Nov 14 23:48 .[0K
+drwx------+ 1 Work mkpasswd    0 Nov 14 20:41 ..[0K
+-rwx------  1 Work mkpasswd 2586 Nov 14 23:35 .RData[0K
+-rwx------  1 Work mkpasswd    0 Nov 14 23:35 .Rhistory[0K
+drwx------+ 1 Work mkpasswd    0 Nov 14 22:13 .Rproj.user[0K
+drwx------+ 1 Work mkpasswd    0 Nov 14 23:48 .git[0K
+-rwx------  1 Work mkpasswd 1091 Nov 14 23:43 LICENSE[0K
+-rwx------  1 Work mkpasswd  244 Nov 14 23:38 R_tutorials.Rproj[0K
+drwx------+ 1 Work mkpasswd    0 Nov 14 20:42 data[0K
+drwx------+ 1 Work mkpasswd    0 Nov 14 20:41 resources[0K
+drwx------+ 1 Work mkpasswd    0 Nov 14 22:22 scripts[0K
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git s[0K[?25ht[0Ka[0Kt[0Ku[0Ks[0K[?25l
+[0K[?25hOn branch master[0K[?25l
+Your branch is up-to-date with 'origin/master'.[0K
+Changes to be committed:[0K
+  (use "git reset HEAD <file>..." to unstage)[0K
+[0K
+        [0;32mnew file:   R_tutorials.Rproj[0m[0K
+        [0;32mnew file:   data/AirlinePassengers.csv[0m[0K
+        [0;32mnew file:   data/Baseball.csv[0m[0K
+        [0;32mnew file:   data/Boston.csv[0m[0K
+        [0;32mnew file:   data/Bridges.csv[0m[0K
+        [0;32mnew file:   data/ClevelandHeart14.csv[0m[0K
+        [0;32mnew file:   data/Contraception.csv[0m[0K
+        [0;32mnew file:   data/EchoCardiogram.csv[0m[0K
+        [0;32mnew file:   data/EnglandTemperature.csv[0m[0K
+        [0;32mnew file:   data/Flags.csv[0m[0K
+        [0;32mnew file:   data/Glass.csv[0m[0K
+        [0;32mnew file:   data/Haberman.csv[0m[0K
+        [0;32mnew file:   data/Hayes-Roth.csv[0m[0K
+        [0;32mnew file:   data/HorseColic.csv[0m[0K
+        [0;32mnew file:   data/HotelRooms.csv[0m[0K
+        [0;32mnew file:   data/HouseVotes.csv[0m[0K
+        [0;32mnew file:   data/Iris.csv[0m[0K
+        [0;32mnew file:   data/Kepler.csv[0m[0K
+        [0;32mnew file:   data/LandingControl.csv[0m[0K
+        [0;32mnew file:   data/Lenses.csv[0m[0K
+        [0;32mnew file:   data/LiverDisorder.csv[0m[0K
+        [0;32mnew file:   data/LungCancer.csv[0m[0K
+        [0;32mnew file:   data/Mushrooms.csv[0m[0K
+        [0;32mnew file:   data/PaperTowels.csv[0m[0K
+        [0;32mnew file:   data/Parity3.csv[0m[0K
+        [0;32mnew file:   data/Pima-Indians-Diabetes.csv[0m[0K
+        [0;32mnew file:   data/PostOperative.csv[0m[0K
+        [0;32mnew file:   data/PrimaryTumor.csv[0m[0K
+        [0;32mnew file:   data/SunSpotsFull.csv[0m[0K
+        [0;32mnew file:   data/Sunspots.csv[0m[0K
+        [0;32mnew file:   data/Titanic.csv[0m[0K
+        [0;32mnew file:   data/Zoo.csv[0m[0K
+        [0;32mnew file:   data/apricot_dataset.csv[0m[0K
+        [0;32mnew file:   data/dermatology.csv[0m[0K
+        [0;32mnew file:   data/ionosphere.csv[0m[0K
+        [0;32mnew file:   data/labor-neg.csv[0m[0K
+        [0;32mnew file:   data/lymphography.csv[0m[0K
+        [0;32mnew file:   data/mpg.csv[0m[0K
+        [0;32mnew file:   data/test_data.csv[0m[0K
+        [0;32mnew file:   data/training_data.csv[0m[0K
+        [0;32mnew file:   resources/Machine Learning Modelling in R.pdf[0m[0K
+        [0;32mnew file:   resources/R_Cheat_Data.pdf[0m[0K
+        [0;32mnew file:   resources/advancedR.pdf[0m[0K
+        [0;32mnew file:   resources/base-r.pdf[0m[0K
+        [0;32mnew file:   resources/basicR.pdf[0m[0K
+        [0;32mnew file:   resources/caret.pdf[0m[0K
+        [0;32mnew file:   resources/cartography.pdf[0m[0K
+        [0;32mnew file:   resources/data-import.pdf[0m[0K
+        [0;32mnew file:   resources/data-transformation.pdf[0m[0K
+        [0;32mnew file:   resources/data-visualization-2.1.pdf[0m[0K
+        [0;32mnew file:   resources/datatable.pdf[0m[0K
+        [0;32mnew file:   resources/eurostat.pdf[0m[0K
+        [0;32mnew file:   resources/keras.pdf[0m[0K
+        [0;32mnew file:   resources/lubridate.pdf[0m[0K
+        [0;32mnew file:   resources/mosaic-cheatsheet-gf.pdf[0m[0K
+        [0;32mnew file:   resources/package-development.pdf[0m[0K
+        [0;32mnew file:   resources/purrr.pdf[0m[0K
+        [0;32mnew file:   resources/quanteda.pdf[0m[0K[9G[?25h[?25l
+        [0;32mnew file:   resources/r-cheat-sheet-3.pdf[0m[0K
+        [0;32mnew file:   resources/r-cheatsheet.pdf[0m[0K
+        [0;32mnew file:   resources/r4beginners_v3.pdf[0m[0K
+        [0;32mnew file:   resources/regex.pdf[0m[0K
+        [0;32mnew file:   resources/rmarkdown-2.0.pdf[0m[0K
+        [0;32mnew file:   resources/rmarkdown-reference.pdf[0m[0K
+        [0;32mnew file:   resources/rstudio-IDE-cheatsheet.pdf[0m[0K
+        [0;32mnew file:   resources/shiny.pdf[0m[0K
+        [0;32mnew file:   resources/sparklyr.pdf[0m[0K
+        [0;32mnew file:   resources/strings.pdf[0m[0K
+        [0;32mnew file:   scripts/Best_practices.R[0m[0K
+        [0;32mnew file:   scripts/Few_important_functions.R[0m[0K
+        [0;32mnew file:   scripts/Few_important_links.R[0m[0K
+        [0;32mnew file:   scripts/Notes.R[0m[0K
+        [0;32mnew file:   scripts/Save_plot.R[0m[0K
+        [0;32mnew file:   scripts/barplots.R[0m[0K
+        [0;32mnew file:   scripts/boxplots.R[0m[0K
+        [0;32mnew file:   scripts/descriptive_statistics.R[0m[0K
+        [0;32mnew file:   scripts/dotplots.R[0m[0K
+        [0;32mnew file:   scripts/histograms.R[0m[0K
+        [0;32mnew file:   scripts/linear_regression.R[0m[0K
+        [0;32mnew file:   scripts/lineplot.R[0m[0K
+        [0;32mnew file:   scripts/pieplots.R[0m[0K
+        [0;32mnew file:   scripts/scatterplots.R[0m[0K
+[0K
+Untracked files:[0K
+  (use "git add <file>..." to include in what will be committed)[0K
+[0K
+        [0;31m.RData[0m[0K
+        [0;31m.Rhistory[0m[0K
+        [0;31m.Rproj.user/[0m[0K
+[0K
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git a[0K[?25hd[0Kd[0K[?25l
+[0K[?25hNothing specified, nothing added.[0K[?25l
+Maybe you wanted to say 'git add .'?[0K
+[0K[?25h[?25l
+[0;32mWork@DESKTOP-M6313G4 [0;35m [0;33m~/Dropbox/Development/R_tutorials[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0Kt[0K[7G[?25l$ git s[0K[?25h[?25l$ git[0K[7G[?25h[?25l$ git a[0K[?25hd[0Kd[0K[11G[?25l$ git add *[0K[?25h[?25l$ git add[0K[11G[?25h[?25l$ git add .[0K[?25h[?25l
+[0K[?25h
